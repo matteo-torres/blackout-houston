@@ -99,9 +99,9 @@ blackout_houston_sf <- st_as_sf(blackout_houston_proj)
 # Visualize the cropped blackout mask using tmap
 tm_shape(blackout_houston_sf) +
   tm_polygons() +
-  tm_layout(title = "Blackout Areas in Houston") +
+  tm_title("Blackout Areas in Houston") +
   tm_graticules(alpha = 0.5) +
-  tm_scale_bar(position = c("left", "bottom")) +
+  tm_scalebar(position = c("left", "bottom")) +
   tm_compass(position = c("right", "top"))
 ```
 
@@ -124,9 +124,9 @@ blackout_no_highways <- st_make_valid(blackout_no_highways)
 # Visualize the blackout mask excluding highways
 tm_shape(blackout_no_highways) +
   tm_polygons() + 
-  tm_layout(title = "Blackout Areas Excluding Highways") +
+  tm_title("Blackout Areas Excluding Highways") +
   tm_graticules(alpha = 0.5) +
-  tm_scale_bar(position = c("left", "bottom")) +
+  tm_scalebar(position = c("left", "bottom")) +
   tm_compass(position = c("right", "top"))
 ```
 
@@ -145,17 +145,17 @@ tm_shape(blackout_no_highways) +
   tm_polygons() + 
 tm_shape(homes_in_blackout) +
   tm_dots(fill = "red", size = 0.1) +
-  tm_layout(title = "Homes Likely Impacted by Blackouts") +
+  tm_title("Homes Likely Impacted by Blackouts") +
   tm_graticules(alpha = 0.5) +
-  tm_scale_bar(position = c("left", "bottom")) +
+  tm_scalebar(position = c("left", "bottom")) +
   tm_compass(position = c("right", "top"))
 ```
 
-```{r, output = TRUE, echo = FALSE}
+```{r, message = TRUE, echo = FALSE}
 # Number of homes likely impacted by blackouts
 num_homes_affected <- nrow(homes_in_blackout)
 
-print(paste("Estimated number of homes in Houston that lost power:", num_homes_affected))
+message("Estimated number of homes in Houston that lost power:", num_homes_affected)
 ```
 
 ### Identify the Census Tracts Likely Impacted by Blackout
@@ -181,9 +181,9 @@ census_tracts_affected_income <- st_join(homes_in_blackout, income_sf, join = st
 # Visualize the affected census tracts with median household income
 tm_shape(census_tracts_affected_income) +
   tm_polygons(col = "red") +
-  tm_layout(title = "Census Tracts Affected by Blackouts with Median Income") +
+  tm_title("Census Tracts Affected by Blackouts with Median Income") +
   tm_graticules(alpha = 0.5) +
-  tm_scale_bar(position = c("left", "bottom")) +
+  tm_scalebar(position = c("left", "bottom")) +
   tm_compass(position = c("right", "top"))
 ```
 
