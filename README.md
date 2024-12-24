@@ -9,24 +9,18 @@ This study aims to identify the impacts of a series of extreme winter storms by 
 
 ```bash
 blackout-houston
-│   README.md
-|   blackout-houston.qmd
-|   Rmd/Proj files
-│   .gitignore
-|
+├── README.md
+├── .gitignore
+├── blackout-houston.qmd
+├── Rmd/Proj files
 └── data
-    │  
-    └── gis_osm_roads_free_1.gpkg
-    |  
-    └── gis_osm_buildings_a_free_1.gpkg
-    |  
-    └── ACS_2019_5YR_TRACT_48_TEXAS.gdb
-    |
+    ├── gis_osm_roads_free_1.gpkg
+    ├── gis_osm_buildings_a_free_1.gpkg
+    ├── ACS_2019_5YR_TRACT_48_TEXAS.gdb
     └── VNP46A1
-        |
-        └── VNP46A1.A2021038.h08v05.001.2021039064328.tif
-        └── VNP46A1.A2021038.h08v06.001.2021039064329.tif
-        └── VNP46A1.A2021047.h08v05.001.2021048091106.tif
+        ├── VNP46A1.A2021038.h08v05.001.2021039064328.tif
+        ├── VNP46A1.A2021038.h08v06.001.2021039064329.tif
+        ├── VNP46A1.A2021047.h08v05.001.2021048091106.tif
         └── VNP46A1.A2021047.h08v06.001.2021048091105.tif
 ```
 ## Data
