@@ -37,4 +37,6 @@ NASA. (n.d.). Level-1 and Atmosphere Archive & Distribution System Distributed A
 
 ## Acknowledgements
 
-This repository was created as part of a final project for the course EDS 223 - Geospatial Analysis & Remote Sensing.
+This repository was created for a final project related to the course EDS 223: Geospatial Analysis & Remote Sensing.
+
+This course is an academic requirement for the Master of Environmental Data Science (MEDS) program at the Bren School of Environmental Science & Management, University of California, Santa Barbara.
