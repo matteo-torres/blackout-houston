@@ -6,7 +6,8 @@ This study aims to identify the impacts of a series of extreme winter storms by 
 - Mapping power outages utilizing VIIRS data
 - Performing raster operations such as masking, buffering, and spatial joins 
 - Visualizing statistics through plots
-
+  
+## Repository Structure
 ```bash
 blackout-houston
 ├── README.md
