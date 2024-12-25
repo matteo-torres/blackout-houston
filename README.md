@@ -30,11 +30,11 @@ All the data has been downloaded and stored in the data folder. The VIIRS data f
 
 ## References
 
-Bureau, U. C. (2024, October 22). American Community Survey (ACS). Census.gov.
-
 NASA. (2021). VNP46A1--5000 VIIRS dataset for 2021-02-07 and 2021-02-16 within the region -96.5, 30.5, -94.5, 29. NASA EOSDIS. Retrieved from https://ladsweb.modaps.eosdis.nasa.gov/search/order/4/VNP46A1--5000/2021-02-07..2021-02-07,2021-02-16..2021-02-16/NB/-96.5,30.5,-94.5,29
 
 OpenStreetMap contributors. (n.d.). Planet OSM. Retrieved from https://planet.openstreetmap.org
+
+U.S. Census Bureau. (2019). TIGER/Line shapefiles: 2019 ACS data. Retrieved from https://www2.census.gov/geo/tiger/TIGER_DP/2019ACS/
 
 ## Acknowledgements
 
