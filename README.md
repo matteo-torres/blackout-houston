@@ -32,9 +32,9 @@ All the data has been downloaded and stored in the data folder. The VIIRS data f
 
 Bureau, U. C. (2024, October 22). American Community Survey (ACS). Census.gov.
 
-Geofabrik Download server. Geofabrik Download Server. (n.d.).
+Esri. (n.d.). [Dataset title]. ArcGIS. Retrieved December 24, 2024, from https://www.arcgis.com/home/item.html?id=eae879104e094b00b7b16b5ad7f0690c#data
 
-NASA. (2021). VNP46A1-5000 VIIRS product data for the period of 2021-02-07 to 2021-02-16 in the region of -96.5, 30.5, -94.5, 29. NASA EOSDIS. Retrieved from https://ladsweb.modaps.eosdis.nasa.gov/search/order/5/VNP46A1--5000/2021-02-07..2021-02-07,2021-02-16..2021-02-16/NB/-96.5,30.5,-94.5,29
+NASA. (2021). VNP46A1--5000 VIIRS dataset for 2021-02-07 and 2021-02-16 within the region -96.5, 30.5, -94.5, 29. NASA EOSDIS. Retrieved from https://ladsweb.modaps.eosdis.nasa.gov/search/order/4/VNP46A1--5000/2021-02-07..2021-02-07,2021-02-16..2021-02-16/NB/-96.5,30.5,-94.5,29
 
 ## Acknowledgements
 
