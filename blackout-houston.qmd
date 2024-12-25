@@ -222,7 +222,7 @@ This study investigates the areas in Houston, Texas, affected by blackouts by ex
 
 | Data | Citation | Link |
 |------|----------|------|
-| Night lights | NASA. (n.d.). Level-1 and Atmosphere Archive & Distribution System Distributed Active Archive Center - LAADS DAAC. NASA. | https://ladsweb.modaps.eosdis.nasa.gov/ |
-| Houses | Geofabrik Download server. Geofabrik Download Server. (n.d.). | https://download.geofabrik.de/ |
-| Roads | Geofabrik Download server. Geofabrik Download Server. (n.d.). | https://download.geofabrik.de/ |
-| Socioeconomic | Bureau, U. C. (2024, October 22). American Community Survey (ACS). Census.gov. | https://www.census.gov/programs-surveys/acs |
+| Night Lights | NASA. (2021). VNP46A1--5000 VIIRS dataset for 2021-02-07 and 2021-02-16 within the region -96.5, 30.5, -94.5, 29. NASA EOSDIS. | https://ladsweb.modaps.eosdis.nasa.gov/search/order/4/VNP46A1--5000/2021-02-07..2021-02-07,2021-02-16..2021-02-16/NB/-96.5,30.5,-94.5,29 |
+| Houses | OpenStreetMap contributors. (n.d.). Planet OSM. | https://planet.openstreetmap.org |
+| Roads | OpenStreetMap contributors. (n.d.). Planet OSM. | https://planet.openstreetmap.org |
+| Socioeconomic | U.S. Census Bureau. (2019). TIGER/Line shapefiles: 2019 ACS data. | https://www2.census.gov/geo/tiger/TIGER_DP/2019ACS/ |
