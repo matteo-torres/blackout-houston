@@ -26,7 +26,7 @@ blackout-houston
 ```
 ## Data
 
-All the data has been downloaded and stored in the data folder. The VIIRS data files can be accessed within a separate subfolder.
+All datasets have been downloaded and organized within the data folder in this repository. The VIIRS datasets are specifically located in the VNP46A1 subfolder for easy access.
 
 ## References
 
