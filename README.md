@@ -25,8 +25,18 @@ blackout-houston
         └── VNP46A1.A2021047.h08v06.001.2021048091105.tif
 ```
 ## Data
+All datasets have been downloaded and organized within the data folder in this repository. The Visible Infrared Imaging Radiometer Suite (VIIRS) datasets are specifically located in the VNP46A1 subfolder for easy access. Since Houston lies on the border of tiles h08v05 and h08v06, two tiles were downloaded for each date.
 
-All datasets have been downloaded and organized within the data folder in this repository. The VIIRS datasets are specifically located in the VNP46A1 subfolder for easy access.
+- VNP46A1.A2021038.h08v05.001.2021039064328.tif: Tile h08v05, collected on 2021-02-07
+- VNP46A1.A2021038.h08v06.001.2021039064329.tif: Tile h08v06, collected on 2021-02-07
+- VNP46A1.A2021047.h08v05.001.2021048091106.tif: Tile h08v05, collected on 2021-02-16
+- VNP46A1.A2021047.h08v06.001.2021048091105.tif: Tile h08v06, collected on 2021-02-16
+
+The roads and buildings datasets were obtained from OpenStreetMap via [Geofabrik](https://download.geofabrik.de). These datasets were processed into a GeoPackage containing only roads and houses in the Houston metropolitan area.
+
+The ACS_2019_5YR_TRACT_48.gdb file is an ArcGIS file geodatabase. You can explore its contents using the `st_layers()` function from the `stars` R package.
+
+All code for querying data and accessing specific layers is provided in the blackout-houston.qmd file.
 
 ## References
 
